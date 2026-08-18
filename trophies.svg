@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="968" height="190" viewBox="0 0 968 190">
+<defs>
+  <linearGradient id="tbg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#160821"/>
+    <stop offset="100%" stop-color="#2b0f45"/>
+  </linearGradient>
+  <clipPath id="cardClip"><rect x="0" y="0" width="968" height="190" rx="18"/></clipPath>
+  <style>
+    .cname{ font-family:'Segoe UI',sans-serif; font-size:13px; fill:#e2d6f5; font-weight:600; }
+    .rank{ font-family:'Fira Code',monospace; font-size:26px; font-weight:800; }
+    @keyframes popCell{ 0%{ opacity:0; transform:translateY(16px) scale(.9);} 70%{ transform:translateY(-2px) scale(1.03);} 100%{ opacity:1; transform:translateY(0) scale(1);} }
+    .cell{ opacity:0; animation:popCell .6s cubic-bezier(.2,.8,.2,1) forwards; }
+    @keyframes starDraw{ from{ stroke-dashoffset:120; opacity:0;} to{ stroke-dashoffset:0; opacity:1;} }
+    .star{ stroke-dasharray:120; stroke-dashoffset:120; animation:starDraw 1s ease-out forwards; animation-delay:.5s; }
+    @keyframes sweep{ 0%{ transform:translateX(-40px); opacity:0;} 10%{opacity:.35;} 30%{opacity:0;} 100%{ transform:translateX(190px); opacity:0;} }
+    .shine2{ animation:sweep 3.5s ease-in-out infinite; animation-delay:2s; }
+  </style>
+</defs>
+<g clip-path="url(#cardClip)">
+  <rect width="968" height="190" fill="url(#tbg)"/>
+  <rect width="968" height="190" fill="none" stroke="#4a2a66" stroke-width="1.5"/>
+  <g transform="translate(9,10)">
+    <g transform="translate(10,0)">
+     <g class="cell" style="animation-delay:0.0s">
+      <rect width="150" height="170" rx="14" fill="#1a0e28" stroke="#ff7ad9" stroke-opacity=".55"/>
+      <text x="75" y="30" text-anchor="middle" class="cname">Commits</text>
+      <polygon class="star" points="75,40 82,58 101,58 86,70 91,89 75,77 59,89 64,70 49,58 68,58"
+        fill="none" stroke="#ff7ad9" stroke-width="2" transform="translate(0,4) scale(0.9)" transform-origin="75px 65px"/>
+      <text x="75" y="130" text-anchor="middle" class="rank" fill="#ff7ad9">SSS</text>
+      <rect x="30" y="145" width="90" height="4" rx="2" fill="#ff7ad9" opacity=".5"/>
+      <rect class="shine2" x="0" y="0" width="40" height="170" fill="#ffffff" opacity="0"/>
+     </g>
+    </g>
+    <g transform="translate(168,0)">
+     <g class="cell" style="animation-delay:0.15s">
+      <rect width="150" height="170" rx="14" fill="#1a0e28" stroke="#7ad9ff" stroke-opacity=".55"/>
+      <text x="75" y="30" text-anchor="middle" class="cname">Stars</text>
+      <polygon class="star" points="75,40 82,58 101,58 86,70 91,89 75,77 59,89 64,70 49,58 68,58"
+        fill="none" stroke="#7ad9ff" stroke-width="2" transform="translate(0,4) scale(0.9)" transform-origin="75px 65px"/>
+      <text x="75" y="130" text-anchor="middle" class="rank" fill="#7ad9ff">A+</text>
+      <rect x="30" y="145" width="90" height="4" rx="2" fill="#7ad9ff" opacity=".5"/>
+      <rect class="shine2" x="0" y="0" width="40" height="170" fill="#ffffff" opacity="0"/>
+     </g>
+    </g>
+    <g transform="translate(326,0)">
+     <g class="cell" style="animation-delay:0.3s">
+      <rect width="150" height="170" rx="14" fill="#1a0e28" stroke="#8ff0d6" stroke-opacity=".55"/>
+      <text x="75" y="30" text-anchor="middle" class="cname">Pull Req</text>
+      <polygon class="star" points="75,40 82,58 101,58 86,70 91,89 75,77 59,89 64,70 49,58 68,58"
+        fill="none" stroke="#8ff0d6" stroke-width="2" transform="translate(0,4) scale(0.9)" transform-origin="75px 65px"/>
+      <text x="75" y="130" text-anchor="middle" class="rank" fill="#8ff0d6">AA</text>
+      <rect x="30" y="145" width="90" height="4" rx="2" fill="#8ff0d6" opacity=".5"/>
+      <rect class="shine2" x="0" y="0" width="40" height="170" fill="#ffffff" opacity="0"/>
+     </g>
+    </g>
+    <g transform="translate(484,0)">
+     <g class="cell" style="animation-delay:0.44999999999999996s">
+      <rect width="150" height="170" rx="14" fill="#1a0e28" stroke="#ffd97a" stroke-opacity=".55"/>
+      <text x="75" y="30" text-anchor="middle" class="cname">Followers</text>
+      <polygon class="star" points="75,40 82,58 101,58 86,70 91,89 75,77 59,89 64,70 49,58 68,58"
+        fill="none" stroke="#ffd97a" stroke-width="2" transform="translate(0,4) scale(0.9)" transform-origin="75px 65px"/>
+      <text x="75" y="130" text-anchor="middle" class="rank" fill="#ffd97a">A</text>
+      <rect x="30" y="145" width="90" height="4" rx="2" fill="#ffd97a" opacity=".5"/>
+      <rect class="shine2" x="0" y="0" width="40" height="170" fill="#ffffff" opacity="0"/>
+     </g>
+    </g>
+    <g transform="translate(642,0)">
+     <g class="cell" style="animation-delay:0.6s">
+      <rect width="150" height="170" rx="14" fill="#1a0e28" stroke="#c48bff" stroke-opacity=".55"/>
+      <text x="75" y="30" text-anchor="middle" class="cname">Repos</text>
+      <polygon class="star" points="75,40 82,58 101,58 86,70 91,89 75,77 59,89 64,70 49,58 68,58"
+        fill="none" stroke="#c48bff" stroke-width="2" transform="translate(0,4) scale(0.9)" transform-origin="75px 65px"/>
+      <text x="75" y="130" text-anchor="middle" class="rank" fill="#c48bff">B+</text>
+      <rect x="30" y="145" width="90" height="4" rx="2" fill="#c48bff" opacity=".5"/>
+      <rect class="shine2" x="0" y="0" width="40" height="170" fill="#ffffff" opacity="0"/>
+     </g>
+    </g>
+    <g transform="translate(800,0)">
+     <g class="cell" style="animation-delay:0.75s">
+      <rect width="150" height="170" rx="14" fill="#1a0e28" stroke="#ff9a7a" stroke-opacity=".55"/>
+      <text x="75" y="30" text-anchor="middle" class="cname">Exp</text>
+      <polygon class="star" points="75,40 82,58 101,58 86,70 91,89 75,77 59,89 64,70 49,58 68,58"
+        fill="none" stroke="#ff9a7a" stroke-width="2" transform="translate(0,4) scale(0.9)" transform-origin="75px 65px"/>
+      <text x="75" y="130" text-anchor="middle" class="rank" fill="#ff9a7a">S</text>
+      <rect x="30" y="145" width="90" height="4" rx="2" fill="#ff9a7a" opacity=".5"/>
+      <rect class="shine2" x="0" y="0" width="40" height="170" fill="#ffffff" opacity="0"/>
+     </g>
+    </g></g>
+</g>
+</svg>
