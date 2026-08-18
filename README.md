@@ -31,6 +31,13 @@
 
 <br/>
 
+<div align="center">
+<img src="streak.svg?v=1" alt="Coding streak" width="49%">
+<img src="skills-radar.svg?v=1" alt="Skill radar chart" width="49%">
+</div>
+
+<br/>
+
 ## 🏆 GitHub Achievements
 
 <div align="center">
@@ -63,14 +70,10 @@
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:gaureshchaubey26@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Gauresh83)
 
+![Profile Views](https://komarev.com/ghpvc/?username=Gauresh83&label=Profile%20Views&color=0ea5e9&style=for-the-badge)
+
 </div>
 
 <br/>
 
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=Gauresh83&label=Profile%20Views&color=c48bff&style=for-the-badge)
-
-**"Programs must be written for people to read."**
-
-</div>
+<img src="footer.svg?v=1" alt="Thanks for stopping by" width="100%">
