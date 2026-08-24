@@ -22,12 +22,12 @@
 
   <g transform="translate(24,54)">
     <g transform="translate(0,0)"><g class="row" style="animation-delay:.1s">
-      <text class="lname" y="12">C++</text><text class="lpct" x="420" y="12" text-anchor="end">34.8%</text>
+      <text class="lname" y="12">C++</text><text class="lpct" x="420" y="12" text-anchor="end">10%</text>
       <rect y="18" width="420" height="7" rx="3.5" fill="#ffffff" opacity=".08"/>
       <rect class="bar" y="18" width="146" height="7" rx="3.5" fill="#f34b7d" style="animation-delay:.3s"/>
     </g></g>
     <g transform="translate(0,32)"><g class="row" style="animation-delay:.25s">
-      <text class="lname" y="12">Python</text><text class="lpct" x="420" y="12" text-anchor="end">27.1%</text>
+      <text class="lname" y="12">Python</text><text class="lpct" x="420" y="12" text-anchor="end">55%</text>
       <rect y="18" width="420" height="7" rx="3.5" fill="#ffffff" opacity=".08"/>
       <rect class="bar" y="18" width="114" height="7" rx="3.5" fill="#3572A5" style="animation-delay:.45s"/>
     </g></g>
