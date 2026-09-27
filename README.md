@@ -49,8 +49,7 @@
 ## 📊 Contribution Activity
 
 <div align="center">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Gauresh83&theme=github_dark" width="49%" alt="Repos per language">
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Gauresh83&theme=github_dark" width="49%" alt="Most commit language">
+<img src="contribution-activity.svg?v=1" width="100%" alt="Top languages by repo and by commit">
 </div>
 
 <br/>
