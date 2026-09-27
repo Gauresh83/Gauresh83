@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+<defs>
+  <linearGradient id="lbg2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#160821"/>
+    <stop offset="100%" stop-color="#341246"/>
+  </linearGradient>
+  <clipPath id="cardClip2"><rect x="0" y="0" width="900" height="320" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#cardClip2)">
+  <rect width="900" height="320" fill="url(#lbg2)"/>
+  <rect width="900" height="320" fill="none" stroke="#4a2a66" stroke-width="1.5"/>
+
+  <line x1="450" y1="20" x2="450" y2="300" stroke="#4a2a66" stroke-width="1"/>
+
+  <!-- LEFT: Top Languages by Repo -->
+  <text x="40" y="50" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#4f8cff">Top Languages by Repo</text>
+
+  <g font-family="Segoe UI, sans-serif" font-size="15" fill="#cbd5e1">
+    <rect x="40" y="85" width="16" height="16" rx="3" fill="#3b82f6"/>
+    <text x="64" y="98">Python</text>
+    <rect x="40" y="119" width="16" height="16" rx="3" fill="#f97316"/>
+    <text x="64" y="132">HTML</text>
+    <rect x="40" y="153" width="16" height="16" rx="3" fill="#eab308"/>
+    <text x="64" y="166">JavaScript</text>
+    <rect x="40" y="187" width="16" height="16" rx="3" fill="#6b7280"/>
+    <text x="64" y="200">C</text>
+  </g>
+
+  <g transform="rotate(-90 330 190)">
+    <circle cx="330" cy="190" r="70" fill="none" stroke="#3b82f6" stroke-width="24" stroke-dasharray="219.9 439.8" stroke-dashoffset="0"/>
+    <circle cx="330" cy="190" r="70" fill="none" stroke="#f97316" stroke-width="24" stroke-dasharray="131.9 439.8" stroke-dashoffset="-219.9"/>
+    <circle cx="330" cy="190" r="70" fill="none" stroke="#eab308" stroke-width="24" stroke-dasharray="52.8 439.8" stroke-dashoffset="-351.8"/>
+    <circle cx="330" cy="190" r="70" fill="none" stroke="#6b7280" stroke-width="24" stroke-dasharray="35.2 439.8" stroke-dashoffset="-404.6"/>
+  </g>
+
+  <!-- RIGHT: Top Languages by Commit -->
+  <text x="480" y="50" font-family="Segoe UI, sans-serif" font-size="22" font-weight="700" fill="#4f8cff">Top Languages by Commit</text>
+
+  <g font-family="Segoe UI, sans-serif" font-size="15" fill="#cbd5e1">
+    <rect x="480" y="80" width="16" height="16" rx="3" fill="#3b82f6"/>
+    <text x="504" y="93">Python</text>
+    <rect x="480" y="112" width="16" height="16" rx="3" fill="#f97316"/>
+    <text x="504" y="125">HTML</text>
+    <rect x="480" y="144" width="16" height="16" rx="3" fill="#eab308"/>
+    <text x="504" y="157">JavaScript</text>
+    <rect x="480" y="176" width="16" height="16" rx="3" fill="#8b5cf6"/>
+    <text x="504" y="189">TypeScript</text>
+    <rect x="480" y="208" width="16" height="16" rx="3" fill="#6b7280"/>
+    <text x="504" y="221">C</text>
+  </g>
+
+  <g transform="rotate(-90 770 190)">
+    <circle cx="770" cy="190" r="70" fill="none" stroke="#3b82f6" stroke-width="24" stroke-dasharray="285.9 439.8" stroke-dashoffset="0"/>
+    <circle cx="770" cy="190" r="70" fill="none" stroke="#f97316" stroke-width="24" stroke-dasharray="52.8 439.8" stroke-dashoffset="-285.9"/>
+    <circle cx="770" cy="190" r="70" fill="none" stroke="#eab308" stroke-width="24" stroke-dasharray="35.2 439.8" stroke-dashoffset="-338.7"/>
+    <circle cx="770" cy="190" r="70" fill="none" stroke="#8b5cf6" stroke-width="24" stroke-dasharray="52.8 439.8" stroke-dashoffset="-373.9"/>
+    <circle cx="770" cy="190" r="70" fill="none" stroke="#6b7280" stroke-width="24" stroke-dasharray="13.2 439.8" stroke-dashoffset="-426.7"/>
+  </g>
+</g>
+</svg>
