@@ -49,7 +49,8 @@
 ## 📊 Contribution Activity
 
 <div align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Gauresh83&theme=tokyo-night" width="100%" alt="Contribution activity graph">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Gauresh83&theme=github_dark" width="49%" alt="Repos per language">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Gauresh83&theme=github_dark" width="49%" alt="Most commit language">
 </div>
 
 <br/>
